@@ -127,14 +127,17 @@ export default {
     {
       id: 1,
       title: "React",
+      familiar: 85,
     },
     {
       id: 2,
       title: "React Native",
+      familiar: 95,
     },
     {
       id: 3,
       title: "Django",
+      familiar: 40,
     },
   ],
 };

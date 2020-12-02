@@ -17,8 +17,19 @@ function Skills() {
         <div className="skillset">
           {data.skills.map((skills) => (
             <div className="skill-inner">
-              <div className="skill-one">
-                <h2>{skills.title}</h2>
+              <div
+                style={{
+                  width: `${skills.familiar}%`,
+                  backgroundColor: "teal",
+                  borderRadius: "90vh",
+                  height: 90,
+                  padding: 5,
+                }}
+                className="skill-one"
+              >
+                <h2>
+                  {skills.title} <h4>{skills.familiar}%</h4>
+                </h2>
               </div>
             </div>
           ))}

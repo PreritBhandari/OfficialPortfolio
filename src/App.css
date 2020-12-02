@@ -407,10 +407,10 @@ li .link:hover {
   color: #000;
   margin-bottom: 0;
 }
-.Skills p {
+/* .Skills p {
   font-size: 20px;
   color: #000;
-}
+} */
 .skill-box {
   padding: 2em 0em 8em 0em;
   margin: auto;
@@ -433,12 +433,13 @@ li .link:hover {
 }
 .skillset .skill-inner {
   box-shadow: 0 0 5px;
-  height: 200px;
-  width: 33%;
+  height: 25%;
+  justify-content: center;
+  width: 25%;
   background-color: #ffffff;
-  border-radius: 20px;
+  border-radius: 90vh;
   margin: 20px;
-  padding: 20px 10px;
+
   border: 1px solid #8500ff;
 }
 .skill-inner h2 {

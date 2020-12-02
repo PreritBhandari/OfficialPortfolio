@@ -122,4 +122,19 @@ export default {
         "Prerit is a very enthusiastic learner. I have collabed with him on many projects. Interesting Person.",
     },
   ],
+
+  skills: [
+    {
+      id: 1,
+      title: "React",
+    },
+    {
+      id: 2,
+      title: "React Native",
+    },
+    {
+      id: 3,
+      title: "Django",
+    },
+  ],
 };

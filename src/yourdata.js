@@ -137,7 +137,7 @@ export default {
     {
       id: 3,
       title: "Django",
-      familiar: 40,
+      familiar: 90,
     },
   ],
 };

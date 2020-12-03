@@ -19,11 +19,11 @@ function About() {
             <div className="info">
               <div className="list">
                 <label>Age:</label>
-                <p>22 Yr</p>
+                <p>21 Yr</p>
               </div>
               <div className="list">
                 <label>Phone:</label>
-                <p>+977-9865005564</p>
+                <p>+977-9842611149</p>
               </div>
               <div class="list">
                 <label>Residence:</label>

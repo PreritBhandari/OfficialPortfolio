@@ -12,7 +12,12 @@ function Testimonials() {
         </Fade>
       </h1>
       <p> People I've worked with have said some nice things... </p>
-      <Carousel initialActiveIndex={0} enableAutoPlay autoPlaySpeed={7000}>
+      <Carousel
+        transitionMs={3000}
+        initialActiveIndex={0}
+        enableAutoPlay
+        autoPlaySpeed={7000}
+      >
         {yourdata.testimonials.map((testimonials) => (
           <div class="testimonials">
             <div>

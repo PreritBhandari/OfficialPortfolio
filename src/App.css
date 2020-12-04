@@ -414,10 +414,13 @@ li .link:hover {
 .skill-box {
   padding: 2em 0em 8em 0em;
   margin: auto;
-  background: url("https://cdn.pixabay.com/photo/2017/07/31/16/12/laptop-2558666_960_720.jpg");
+  background: url("https://i.pinimg.com/564x/6c/69/f9/6c69f9c4aa0bffc48cce9391fc4e4d43.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-origin: padding-box;
+  overflow: hidden;
+  background-attachment: fixed;
 }
 
 .skillset {

@@ -6,12 +6,9 @@ function Skills() {
     <div>
       <div className="skill-box">
         <Fade bottom cascade>
-          <h1>Other Skills.</h1>
+          <h1> Skills</h1>
         </Fade>
-        <p>
-          Everyday I try to learn new things. I Love to get deep about
-          technology.
-        </p>
+        <p>Today is the Mirror For Tomorrow</p>
       </div>
       <Fade bottom cascade>
         <div className="skillset">

@@ -1,13 +1,29 @@
-import React from 'react'
-import {NavLink} from 'react-router-dom'
+import React from "react";
+import { NavLink, Link } from "react-router-dom";
+
 function MainNav() {
-    return (
-        <div>
-            <NavLink  exact to="/" >Home</NavLink>
-            <NavLink  exact to="/Blog" >Blogs</NavLink>
-            <NavLink exact to="/Contact" >Contact</NavLink>
-        </div>
-    )
+  return (
+    <div className="Topnavbar">
+      <div className="brand">
+        <NavLink exact to="/">
+          Prerit Bhandari
+        </NavLink>
+      </div>
+      <Link className="btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </Link>
+      <div class="Topmenu">
+        <NavLink exact to="/Blog">
+          Blogs
+        </NavLink>
+        <NavLink exact to="/Contact">
+          Contact
+        </NavLink>
+      </div>
+    </div>
+  );
 }
 
-export default MainNav
+export default MainNav;

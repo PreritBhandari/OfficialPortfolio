@@ -576,6 +576,48 @@ li .link:hover {
   margin-top: 3%;
   font-size: 25px;
 }
+
+.Topnavbar {
+  position: fixed;
+  height: 13%;
+  overflow: hidden;
+  top: 0;
+  z-index: 200;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: rgba(0,0,0,0.2); */
+  width: 100%;
+}
+.brand {
+  font-size: 55px;
+  font-weight: bold;
+  padding: 10px;
+  margin-left: 20%;
+  text-shadow: 3px 4px black;
+  font-family: "Sacramento", cursive;
+  color: yellow !important;
+}
+.brand a {
+  color: yellow !important;
+  text-decoration: none;
+}
+.Topmenu {
+  position: relative;
+  right: 28%;
+}
+.Topmenu a {
+  color: yellow !important;
+  text-decoration: none;
+  margin-right: 25%;
+  border-radius: 70% 60% 30% 70%/10% 50% 70% 90%;
+  position: relative;
+  font-weight: bold;
+  background-color: indigo;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  box-shadow: 0 0 5px black;
+}
 /* SMARTPHONES  responsive*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 700px) {
   body {

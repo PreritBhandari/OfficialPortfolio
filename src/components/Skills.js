@@ -6,9 +6,11 @@ function Skills() {
     <div>
       <div className="skill-box">
         <Fade bottom cascade>
-          <h1> Skills</h1>
+          <h1 style={{ color: "white" }}> Skills</h1>
         </Fade>
-        <p>Today is the Mirror For Tomorrow</p>
+        <p>
+          <h3>Today is the Mirror For Tomorrow</h3>
+        </p>
       </div>
       <Fade bottom cascade>
         <div className="skillset">

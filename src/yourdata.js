@@ -1,6 +1,6 @@
 export default {
-  name: "Prerit Bhandari.",
-  homepageData: ["Thanks For Visiting", "Welcome!!"],
+  name: "preritBhandari",
+  // homepageData: ["Hey", "Welcome!!"],
 
   contactEmail: "patrioticprerit@gmail.com",
   abouttext:

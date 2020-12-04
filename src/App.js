@@ -10,14 +10,12 @@ import Hire from "./components/Hire";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-import MainNav from './components/MainNav'
+import MainNav from "./components/MainNav";
 import Contact from "./components/Contact";
 import Blog from "./components/Blog";
 
 import Testimonials from "./components/Testimonials";
-import {BrowserRouter as Router ,Route,Switch} from 'react-router-dom'
-
-
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function Base() {
   return (
@@ -51,25 +49,17 @@ function Base() {
   );
 }
 
-const  App=()=>{
-
-
-return(
-
-<Router>
-  <MainNav/>
-  <Switch>
-    <Route exact path='/' component={Base} />
-    <Route exact path ="/Blog" component={Blog}  />
-    <Route  exact path="/Contact" component={Contact}/>
-  </Switch>
-</Router>
-
-
-
-
-)
-}
-
+const App = () => {
+  return (
+    <Router>
+      <MainNav />
+      <Switch>
+        <Route exact path="/" component={Base} />
+        <Route exact path="/Blog" component={Blog} />
+        <Route exact path="/Contact" component={Contact} />
+      </Switch>
+    </Router>
+  );
+};
 
 export default App;

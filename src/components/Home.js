@@ -18,7 +18,6 @@ import img12 from "../assets/images/12.png";
 function Home() {
   return (
     <div className="Home">
-      
       <section ClassName="home">
         <img src={img1} data-speed="-5" class="layer" alt="cover" />
         <img src={img2} data-speed="5" class="layer" alt="cover" />
@@ -33,9 +32,9 @@ function Home() {
         <img src={img11} data-speed="-5" class="layer" alt="cover" />
         <img src={img12} data-speed="-2" class="layer" alt="cover" />
         <div id="bichko" class="layer" data-speed="2">
-          <h2>{data.homepageData[0]}</h2>
+          {/* <h2>{data.homepageData[0]}</h2>
 
-          <h3>{data.homepageData[1]}</h3>
+          <h3>{data.homepageData[1]}</h3> */}
 
           <h1>
             I'm <spam>{data.name}</spam>

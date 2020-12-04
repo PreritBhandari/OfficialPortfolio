@@ -2,11 +2,13 @@
 
 body {
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   overflow-x: hidden;
   z-index: 1;
+  color: white;
   margin: 0;
   padding: 0;
+  background: url("https://i.pinimg.com/236x/2f/9d/25/2f9d25a9eac704fe9d3443faacd2caed.jpg");
   /* background-color: #1eeb03; */
 }
 
@@ -47,7 +49,6 @@ section {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background-color: #111;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,7 +74,7 @@ section #bichko {
 
 nav {
   position: fixed;
-  right: 10%;
+  right: 0%;
   background: linear-gradient(45deg, #8500ff, cyan);
   z-index: 100;
   color: white;
@@ -159,8 +160,9 @@ li .link:hover {
 .about {
   display: flex;
   flex-direction: row-reverse;
-  background-color: bisque;
+  background: url("https://i.pinimg.com/236x/b3/7e/cb/b37ecb7944a66012c8b0adbb6699749b.jpg");
   border-radius: 150vh;
+  background-attachment: fixed;
 }
 .about-content {
   position: relative;
@@ -168,7 +170,7 @@ li .link:hover {
   width: 70%;
 }
 .about-content h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: cursive;
   font-size: 4em;
   text-align: left;
 }
@@ -238,20 +240,18 @@ li .link:hover {
 /* Service Section Start */
 
 .Service {
-  color: white;
   margin: 5% auto;
   width: 80%;
   z-index: 101;
 }
 .Service h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: cursive;
   font-size: 4em;
-  color: #000;
+
   margin-bottom: 0;
 }
 .Service p {
   font-size: 20px;
-  color: #000;
 }
 .services {
   display: flex;
@@ -268,22 +268,19 @@ li .link:hover {
 .service-2,
 .service-3 {
   padding: 2%;
-  mix-blend-mode: multiply;
+  mix-blend-mode: hard-light;
   height: 320px;
   max-width: 320px;
 }
 .service-1 {
-  color: #fff;
   background-color: #ff8a00 !important;
   border-radius: 50% 60% 50% 70%/50% 50% 70% 60%;
 }
 .service-2 {
-  color: #fff;
   background-color: #e52e71 !important;
   border-radius: 80% 30% 50% 50%/50% 50% 70% 60%;
 }
 .service-3 {
-  color: #fff;
   background-color: teal !important;
   border-radius: 40% 80% 50% 80%/50% 70% 20% 50%;
 }
@@ -298,7 +295,6 @@ li .link:hover {
 .services .inner-part p {
   margin: 0px;
   font-size: 20px;
-  color: #fff;
 }
 .service-1:hover,
 .service-2:hover,
@@ -318,14 +314,13 @@ li .link:hover {
   align-items: flex-start;
 }
 .Works .heading {
-  font-family: "Montserrat", sans-serif;
+  font-family: cursive;
   font-size: 4em;
-  color: #000;
+
   margin-bottom: 0;
 }
 .Works p {
   font-size: 20px;
-  color: #000;
 }
 .Works .work-content {
   display: grid;
@@ -341,7 +336,6 @@ li .link:hover {
   height: 18em;
 }
 .project h2 {
-  color: black;
   margin: 0;
   padding: 0;
 }
@@ -402,7 +396,7 @@ li .link:hover {
   margin: 5% auto;
 }
 .Skills h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: cursive;
   font-size: 4em;
   color: #000;
   margin-bottom: 0;
@@ -414,13 +408,18 @@ li .link:hover {
 .skill-box {
   padding: 2em 0em 8em 0em;
   margin: auto;
-  background: url("https://i.pinimg.com/564x/6c/69/f9/6c69f9c4aa0bffc48cce9391fc4e4d43.jpg");
+  background: url("https://i.pinimg.com/236x/a9/13/e3/a913e3cc68528dc782648bcaa56cfb00.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-origin: padding-box;
   overflow: hidden;
   background-attachment: fixed;
+}
+
+.skill-box p {
+  font-style: italic;
+  color: white;
 }
 
 .skillset {
@@ -457,19 +456,17 @@ li .link:hover {
   margin: 5% auto;
 }
 .Testi h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: cursive;
   font-size: 4em;
-  color: #000;
   margin-bottom: 0;
 }
 .Testi p {
   font-size: 20px;
-  color: #000;
 }
 .testimonials {
   align-items: center;
   width: 60%;
-  border: 1px solid rgb(133, 0, 255);
+  border: 1px solid grey;
   margin: 5% auto;
   padding: 20px;
 }
@@ -630,6 +627,7 @@ li .link:hover {
   .Skills h1 {
     font-size: 1.5rem;
     border-bottom: 1px solid black;
+    font-family: cursive;
   }
   .skills {
     margin: 10;
@@ -688,6 +686,7 @@ li .link:hover {
   .contact h1 {
     font-size: 1.55rem;
     border-bottom: 1px solid black;
+    font-family: cursive;
   }
   .name,
   .email {

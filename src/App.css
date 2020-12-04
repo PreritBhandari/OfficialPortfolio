@@ -606,15 +606,17 @@ li .link:hover {
   position: relative;
   right: 28%;
 }
+
+.first {
+  margin-right: 25px;
+}
+
 .Topmenu a {
   color: yellow !important;
   text-decoration: none;
-  margin-right: 25%;
   border-radius: 70% 60% 30% 70%/10% 50% 70% 90%;
   position: relative;
-  font-weight: bold;
   background-color: indigo;
-  text-transform: uppercase;
   padding: 15px 20px;
   box-shadow: 0 0 5px black;
 }

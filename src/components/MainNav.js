@@ -1,12 +1,18 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHome,
+  faBlog,
+  faAddressBook,
+} from "@fortawesome/free-solid-svg-icons";
 
 function MainNav() {
   return (
     <div className="Topnavbar">
       <div className="brand">
         <NavLink exact to="/">
-          Prerit Bhandari
+          <FontAwesomeIcon icon={faHome} />
         </NavLink>
       </div>
       <Link className="btn">
@@ -15,11 +21,11 @@ function MainNav() {
         <span></span>
       </Link>
       <div class="Topmenu">
-        <NavLink exact to="/Blog">
-          Blogs
+        <NavLink className="first" exact to="/Blog">
+          <FontAwesomeIcon icon={faBlog} size="lg" />
         </NavLink>
         <NavLink exact to="/Contact">
-          Contact
+          <FontAwesomeIcon icon={faAddressBook} size="lg" />
         </NavLink>
       </div>
     </div>

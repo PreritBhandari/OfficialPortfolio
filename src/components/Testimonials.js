@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Fade from "react-reveal/Fade";
 import yourdata from "../yourdata";
 import Carousel from "react-elastic-carousel";

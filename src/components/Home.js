@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import Fade from "react-reveal/Fade";
+import React from "react";
 import data from "../yourdata";
 
 import img1 from "../assets/images/1.png";

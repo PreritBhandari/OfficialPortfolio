@@ -1,11 +1,29 @@
 .bloglist {
-  margin: 40vh;
+  margin: 20vh;
   text-align: center;
 }
 
 .bloglist h1 {
   font-family: cursive;
   font-size: 10vh;
+}
+
+.blogfile label {
+  font-size: 30px;
+}
+
+.indblog {
+  padding: 20px;
+  width: 55vh;
+}
+
+.indblog label {
+  padding: 10px;
+  font-weight: 600;
+}
+.indblog q {
+  padding: 10px;
+  font-size: large;
 }
 
 * {

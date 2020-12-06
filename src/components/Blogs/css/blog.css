@@ -7,3 +7,8 @@
   font-family: cursive;
   font-size: 10vh;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+}

@@ -34,7 +34,6 @@ function ListBlogs() {
                     marginBottom: 10,
                   }}
                   src={post.thumbnail}
-                  alt="Blog Image"
                 />
                 <label>{post.title}</label>
                 <br />

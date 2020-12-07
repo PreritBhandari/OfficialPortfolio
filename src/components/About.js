@@ -15,6 +15,8 @@ function About() {
           <Fade bottom>
             <p>{data.abouttext}</p>
           </Fade>
+          <br />
+          <br />
           <Fade bottom>
             <div className="info">
               <div className="list">
@@ -39,7 +41,10 @@ function About() {
         {data.ShowAboutImage ? (
           <img
             src={data.aboutImage}
-            style={{ width: "50%", borderRadius: 400 }}
+            style={{
+              width: "50%",
+              borderRadius: "80% 30% 50% 50%/50% 50% 70% 60%",
+            }}
             alt="about iamge"
           ></img>
         ) : null}

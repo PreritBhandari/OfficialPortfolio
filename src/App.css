@@ -160,9 +160,6 @@ li .link:hover {
 .about {
   display: flex;
   flex-direction: row-reverse;
-  background: url("https://i.pinimg.com/236x/b3/7e/cb/b37ecb7944a66012c8b0adbb6699749b.jpg");
-  border-radius: 150vh;
-  background-attachment: fixed;
 }
 .about-content {
   position: relative;
@@ -256,7 +253,7 @@ li .link:hover {
   display: flex;
   margin: 10% auto;
   box-sizing: border-box;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   text-align: center;
 }
 .services i {
@@ -269,14 +266,15 @@ li .link:hover {
   padding: 2%;
   mix-blend-mode: hard-light;
   height: 320px;
-  max-width: 320px;
+  width: 320px;
+  margin: 10px;
 }
 .service-1 {
-  background-color: #ff8a00 !important;
+  background-color: #75695b !important;
   border-radius: 50% 60% 50% 70%/50% 50% 70% 60%;
 }
 .service-2 {
-  background-color: #e52e71 !important;
+  background-color: #6b6265 !important;
   border-radius: 80% 30% 50% 50%/50% 50% 70% 60%;
 }
 .service-3 {
@@ -298,7 +296,7 @@ li .link:hover {
 .service-1:hover,
 .service-2:hover,
 .service-3:hover {
-  background-color: #8500ff !important;
+  background-color: #5b5264 !important;
   cursor: pointer;
 }
 
@@ -503,19 +501,18 @@ li .link:hover {
 }
 
 .hire {
-  width: 50%;
+  width: 40%;
   margin: 15px auto;
   align-items: center;
-  background-color: rgb(133, 0, 255);
 }
 .hire .innerpjw-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   justify-items: center;
 }
 .innerpjw-section .qnstext {
-  width: 80%;
+  width: 100%;
   text-align: center;
 }
 .innerpjw-section .gowithus {
@@ -524,7 +521,7 @@ li .link:hover {
 }
 .gowithus button {
   padding: 8px 14px;
-  border: none;
+  border-radius: 30px;
   margin: auto;
   outline: none;
   background-color: black;

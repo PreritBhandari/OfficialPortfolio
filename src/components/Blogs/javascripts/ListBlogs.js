@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../css/blog.css";
 import { Grid } from "@material-ui/core";
 import Axios from "axios";
+import moment from "moment";
 
 function ListBlogs() {
   const [post, setPost] = useState([]);
@@ -26,19 +27,27 @@ function ListBlogs() {
             {post.map((post) => (
               <div className="indblog">
                 <img
-                  style={{ width: 300, height: 300, borderRadius: 40 }}
+                  style={{
+                    width: 300,
+                    height: 300,
+                    borderRadius: 40,
+                    marginBottom: 10,
+                  }}
                   src={post.thumbnail}
                   alt="Blog Image"
                 />
-                <br />
                 <label>{post.title}</label>
                 <br />
                 <br />
                 <q>{post.subtitle}</q>
                 <br />
                 <br />
-                {post.category}
-                {post.date_posted}
+                <date>
+                  {moment(post.date_posted).format("MMMM Do YYYY, h:mm:ss a")}
+                </date>
+                <br />
+                <category>Category: {post.category} &nbsp;&nbsp;</category>
+                <br />
                 <a href="#">See Blog</a>
               </div>
             ))}

@@ -20,6 +20,20 @@
   width: 55vh;
 }
 
+.indblog category {
+  color: gold;
+  font-weight: bold;
+}
+
+.indblog date {
+  font-style: italic;
+}
+
+.indblog a {
+  color: cyan;
+  font-weight: bold;
+}
+
 .indblog label {
   padding: 10px;
   font-weight: 600;

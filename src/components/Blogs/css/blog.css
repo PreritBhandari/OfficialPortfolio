@@ -12,21 +12,25 @@
   font-size: 30px;
 }
 .blogfile {
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
 .indblog {
   padding: 20px;
-  width: 55vh;
+  width: 100%;
+  border: 1px solid grey;
+  margin-bottom: 40px;
 }
 
 .indblog category {
   color: gold;
   font-weight: bold;
+  margin-bottom: 10vh;
 }
 
-.indblog date {
+.date {
   font-style: italic;
+  margin-top: 10vh;
 }
 
 .indblog a {
@@ -35,12 +39,18 @@
 }
 
 .indblog label {
-  padding: 10px;
   font-weight: 600;
 }
-.indblog q {
+.subtitle {
   padding: 10px;
   font-size: large;
+  width: 20%;
+}
+
+.sideData {
+  margin-left: 20vh;
+  /* padding: 5vh; */
+  width: 50%;
 }
 
 * {

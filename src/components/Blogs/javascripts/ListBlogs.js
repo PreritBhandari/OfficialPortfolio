@@ -23,9 +23,9 @@ function ListBlogs() {
       <div className="bloglist">
         <h1>Explore Blogs</h1>
         <div className="blogfile">
-          <Grid container>
+          <Grid item xs container direction="column" spacing={2}>
             {post.map((post) => (
-              <div className="indblog">
+              <div style={{ display: "flex" }} className="indblog">
                 <img
                   style={{
                     width: 300,
@@ -36,19 +36,31 @@ function ListBlogs() {
                   src={post.thumbnail}
                   alt="Blog"
                 />
-                <label>{post.title}</label>
-                <br />
-                <br />
-                <q>{post.subtitle}</q>
-                <br />
-                <br />
-                <date>
-                  {moment(post.date_posted).format("MMMM Do YYYY, h:mm:ss a")}
-                </date>
-                <br />
-                <category>Category: {post.category} &nbsp;&nbsp;</category>
-                <br />
-                <a href="/">See Blog</a>
+
+                <div className="sideData">
+                  <label>{post.title}</label> &nbsp;&nbsp; || &nbsp;&nbsp;
+                  <category>Category: {post.category} &nbsp;&nbsp;</category>
+                  <hr
+                    style={{
+                      width: "110%",
+                      paddingBottom: 1,
+                      marginBottom: 75,
+                    }}
+                  />
+                  <div className="subtitle">
+                    {post.subtitle}sdncjsdncsdmcnsdkcmnsdkcnsdkcnsd
+                  </div>
+                  <br />
+                  <br />
+                  <div className="gowithus">
+                    <button style={{ color: "white" }}>See Blog</button>
+                  </div>
+                  {/* <a href="/">See Blog</a> */}
+                  <div className="date">
+                    <hr />
+                    {moment(post.date_posted).format("MMMM Do YYYY, h:mm:ss a")}
+                  </div>
+                </div>
               </div>
             ))}
           </Grid>

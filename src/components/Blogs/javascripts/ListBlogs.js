@@ -1,8 +1,19 @@
 import React from "react";
 import "../css/blog.css";
 import { Grid } from "@material-ui/core";
+import Axios from "axios";
 
 function ListBlogs() {
+  React.useEffect(() => {
+    Axios.get("http://127.0.0.1:8000/create/")
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+
   return (
     <div>
       <div className="bloglist">

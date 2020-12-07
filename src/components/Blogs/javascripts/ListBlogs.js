@@ -34,6 +34,7 @@ function ListBlogs() {
                     marginBottom: 10,
                   }}
                   src={post.thumbnail}
+                  alt="Blog"
                 />
                 <label>{post.title}</label>
                 <br />
@@ -47,7 +48,7 @@ function ListBlogs() {
                 <br />
                 <category>Category: {post.category} &nbsp;&nbsp;</category>
                 <br />
-                <a href="#">See Blog</a>
+                <a href="/">See Blog</a>
               </div>
             ))}
           </Grid>

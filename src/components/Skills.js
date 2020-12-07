@@ -21,14 +21,12 @@ function Skills() {
                   width: `${skills.familiar}%`,
                   backgroundColor: "teal",
                   borderRadius: "90vh",
-                  height: 90,
-                  padding: 5,
+                  height: 80,
                 }}
                 className="skill-one"
               >
-                <h2>
-                  {skills.title} <h4>{skills.familiar}%</h4>
-                </h2>
+                <br />
+                <h2>{skills.title}</h2>
               </div>
             </div>
           ))}

@@ -435,11 +435,11 @@ li .link:hover {
   height: 100%;
   justify-content: center;
   width: 100%;
-  background-color: #ffffff;
+  background-color: whitesmoke;
   border-radius: 90vh;
   margin: 20px;
 
-  border: 1px solid #8500ff;
+  border: 1px solid white;
 }
 .skill-inner h2 {
   font-size: 2em;

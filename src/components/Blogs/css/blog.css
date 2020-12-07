@@ -11,6 +11,9 @@
 .blogfile label {
   font-size: 30px;
 }
+.blogfile {
+  padding-left: 40px;
+}
 
 .indblog {
   padding: 20px;

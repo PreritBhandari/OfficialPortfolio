@@ -5,10 +5,9 @@ import moment from "moment";
 
 function DetailBlog(props) {
   const {
-    id,
     post,
     title,
-    subtitle,
+
     thumbnail,
     category,
     date_posted,

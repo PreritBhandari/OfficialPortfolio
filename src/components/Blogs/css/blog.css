@@ -82,6 +82,34 @@
   width: 50%;
 }
 
+.similar {
+  width: 80%;
+  margin: 17vh;
+}
+
+.similar similar {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.similarblog {
+  display: "flex";
+  justify-content: space-around;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.suggestion {
+  margin: 10px;
+  border: 1px solid grey;
+}
+
+.suggestion:hover {
+  transform: scale(1.01);
+}
+
 * {
   padding: 0;
   margin: 0;

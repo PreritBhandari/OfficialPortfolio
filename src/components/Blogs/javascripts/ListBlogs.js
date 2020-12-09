@@ -26,16 +26,23 @@ function ListBlogs() {
           <Grid item xs container direction="column" spacing={2}>
             {post.map((post) => (
               <div style={{ display: "flex" }} className="indblog">
-                <img
+                <div
                   style={{
-                    width: 300,
-                    height: 300,
-                    borderRadius: 40,
-                    marginBottom: 10,
+                    display: "flex",
+                    alignItems: "center",
                   }}
-                  src={post.thumbnail}
-                  alt="Blog"
-                />
+                >
+                  <img
+                    style={{
+                      width: 300,
+                      height: 300,
+                      borderRadius: 40,
+                      marginBottom: 10,
+                    }}
+                    src={post.thumbnail}
+                    alt="Blog"
+                  />
+                </div>
 
                 <div className="sideData">
                   <label>{post.title}</label> &nbsp;&nbsp; || &nbsp;&nbsp;

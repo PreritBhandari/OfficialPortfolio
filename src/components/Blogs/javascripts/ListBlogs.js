@@ -21,7 +21,13 @@ function ListBlogs() {
   return (
     <div>
       <div className="bloglist">
-        <h1>Explore Blogs</h1>
+        <div id="bichko" class="layer" data-speed="2">
+          <h1>
+            Explore <spam>Blogs</spam>
+          </h1>
+        </div>
+        <br />
+        <br />
         <div className="blogfile">
           <Grid item xs container direction="column" spacing={2}>
             {post.map((post) => (

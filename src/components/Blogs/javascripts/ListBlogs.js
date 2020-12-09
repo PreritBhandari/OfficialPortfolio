@@ -3,6 +3,7 @@ import "../css/blog.css";
 import { Grid } from "@material-ui/core";
 import Axios from "axios";
 import moment from "moment";
+import { Link } from "react-router-dom";
 
 function ListBlogs() {
   const [post, setPost] = useState([]);
@@ -31,7 +32,12 @@ function ListBlogs() {
         <div className="blogfile">
           <Grid item xs container direction="column" spacing={2}>
             {post.map((post) => (
-              <div style={{ display: "flex" }} className="indblog">
+              <div
+                style={{
+                  display: "flex",
+                }}
+                className="indblog"
+              >
                 <div
                   style={{
                     display: "flex",
@@ -64,7 +70,22 @@ function ListBlogs() {
                   <br />
                   <br />
                   <div className="gowithus">
-                    <button style={{ color: "white" }}>See Blog</button>
+                    <Link
+                      to={{
+                        pathname: "/detailblog",
+                        state: {
+                          id: post.id,
+                          title: post.title,
+                          subtitle: post.subtitle,
+                          thumbnail: post.thumbnail,
+                          category: post.category,
+                          post: post.post,
+                          date_posted: post.date_posted,
+                        },
+                      }}
+                    >
+                      <button style={{ color: "white" }}>See Blog</button>
+                    </Link>
                   </div>
                   {/* <a href="/">See Blog</a> */}
                   <div className="date">

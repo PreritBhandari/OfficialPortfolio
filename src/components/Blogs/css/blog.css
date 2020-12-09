@@ -22,15 +22,31 @@
   margin-bottom: 40px;
 }
 
+.detailblog {
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(26, 31, 41);
+  background-blend-mode: soft-light;
+  justify-content: center;
+  margin: 17vh;
+  width: 80%;
+  border-radius: 40px;
+  border-width: 3px;
+}
+
 .indblog category {
   color: gold;
   font-weight: bold;
-  margin-bottom: 10vh;
 }
 
 .date {
   font-style: italic;
   margin-top: 10vh;
+}
+
+.date2 {
+  font-style: italic;
+  margin-top: 1vh;
 }
 
 .indblog a {
@@ -40,12 +56,19 @@
 
 .indblog label {
   font-weight: 600;
+  font-size: 30px;
 }
 .subtitle {
   padding-bottom: 70px;
   font-size: large;
   width: 90%;
   /* max-height: 5%; */
+  text-align: start;
+}
+
+.post {
+  font-size: large;
+  width: 100%;
   text-align: start;
 }
 

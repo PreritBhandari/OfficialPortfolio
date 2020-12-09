@@ -16,6 +16,7 @@ import Blog from "./components/Blog";
 
 import Testimonials from "./components/Testimonials";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import DetailBlog from "./components/Blogs/javascripts/DetailBlog";
 
 function Base() {
   return (
@@ -56,6 +57,7 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={Base} />
         <Route exact path="/Blog" component={Blog} />
+        <Route exact path="/detailblog" component={DetailBlog} />
         <Route exact path="/Contact" component={Contact} />
       </Switch>
     </Router>

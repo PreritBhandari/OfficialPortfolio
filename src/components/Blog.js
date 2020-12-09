@@ -5,7 +5,6 @@ import ListBlogs from "./Blogs/javascripts/ListBlogs";
 function Blog() {
   return (
     <div>
-      {/* <div className="blog-content">Hello</div> */}
       <div>
         <ListBlogs />
       </div>

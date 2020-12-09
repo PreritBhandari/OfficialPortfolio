@@ -8,7 +8,7 @@ function ListBlogs() {
   const [post, setPost] = useState([]);
 
   useEffect(() => {
-    Axios.get("http://127.0.0.1:8000/create/")
+    Axios.get("https://preritbhandari.pythonanywhere.com/create/")
       .then((res) => {
         console.log(res.data);
         setPost(res.data);
@@ -47,9 +47,7 @@ function ListBlogs() {
                       marginBottom: 75,
                     }}
                   />
-                  <div className="subtitle">
-                    {post.subtitle}sdncjsdncsdmcnsdkcmnsdkcnsdkcnsd
-                  </div>
+                  <div className="subtitle">{post.subtitle}</div>
                   <br />
                   <br />
                   <div className="gowithus">

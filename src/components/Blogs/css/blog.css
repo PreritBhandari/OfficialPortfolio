@@ -110,6 +110,18 @@
   transform: scale(1.01);
 }
 
+em {
+  color: black;
+  font-size: large;
+}
+
+.selectitem {
+  border: 1px solid gray;
+  background-color: grey;
+  width: 200px;
+  padding: 5px;
+}
+
 * {
   padding: 0;
   margin: 0;

@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from "react";
 import "../css/blog.css";
-import { Grid } from "@material-ui/core";
+import { Grid, Select, MenuItem } from "@material-ui/core";
 import Axios from "axios";
 import moment from "moment";
 import { Link } from "react-router-dom";
 
 function ListBlogs() {
   const [post, setPost] = useState([]);
+  const [selection, setSelection] = useState("listblog");
 
   useEffect(() => {
-    Axios.get("https://preritbhandari.pythonanywhere.com/listblog/")
+    Axios.get(`https://preritbhandari.pythonanywhere.com/${selection}/`)
       .then((res) => {
         console.log(res.data);
         setPost(res.data);
@@ -17,7 +18,11 @@ function ListBlogs() {
       .catch((error) => {
         console.log(error);
       });
-  }, []);
+  }, [selection]);
+
+  const handleChange = (e) => {
+    setSelection(e.target.value);
+  };
 
   return (
     <div>
@@ -26,6 +31,29 @@ function ListBlogs() {
           <h1>
             Explore <spam>Blogs</spam>
           </h1>
+          <br />
+          <br />
+        </div>
+        <div>
+          <br />
+          <Select
+            className="selectitem"
+            value={selection}
+            onChange={handleChange}
+          >
+            <MenuItem value="listblog">
+              <em>All </em>
+            </MenuItem>
+            <MenuItem value="list/Programming">
+              <em>Programming</em>
+            </MenuItem>
+            <MenuItem value="list/Travel">
+              <em>Travel</em>
+            </MenuItem>
+            <MenuItem value="list/Others">
+              <em>Others</em>
+            </MenuItem>
+          </Select>
         </div>
         <br />
         <br />

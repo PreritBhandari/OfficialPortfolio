@@ -9,7 +9,7 @@ function ListBlogs() {
   const [post, setPost] = useState([]);
 
   useEffect(() => {
-    Axios.get("https://preritbhandari.pythonanywhere.com/create/")
+    Axios.get("https://preritbhandari.pythonanywhere.com/listblog/")
       .then((res) => {
         console.log(res.data);
         setPost(res.data);

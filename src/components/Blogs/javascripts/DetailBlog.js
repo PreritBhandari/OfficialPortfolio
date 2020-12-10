@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../css/blog.css";
 import Axios from "axios";
 import { GridList, GridListTile, GridListTileBar } from "@material-ui/core";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import moment from "moment";
 
@@ -61,7 +61,8 @@ function DetailBlog(props) {
           <GridList cols={2.5}>
             {similar.map((data) => (
               <GridListTile className="suggestion" key={data.id}>
-                {/* <Link
+                <img src={data.thumbnail} alt={data.title} />
+                <Link
                   to={{
                     pathname: "/detailblog",
                     state: {
@@ -74,14 +75,12 @@ function DetailBlog(props) {
                       date_posted: data.date_posted,
                     },
                   }}
-                > */}
-                <img src={data.thumbnail} alt={data.title} />
-                {/* </Link> */}
-
-                <GridListTileBar
-                  style={{ fontFamily: "sans-serif" }}
-                  title={data.title}
-                />
+                >
+                  <GridListTileBar
+                    style={{ fontFamily: "sans-serif" }}
+                    title={data.title}
+                  />
+                </Link>
               </GridListTile>
             ))}
           </GridList>

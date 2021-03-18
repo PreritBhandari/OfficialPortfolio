@@ -24,7 +24,7 @@ function Footer() {
             </a>
           </div>
           <div className="copyright">
-            <p>&copy; 2018 preritbhandari</p>
+            <p>&copy; 2020 preritbhandari</p>
           </div>
         </div>
       </Fade>

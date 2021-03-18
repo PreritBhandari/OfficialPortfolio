@@ -6,7 +6,7 @@ export default {
   abouttext:
     "I am currently persuing my Bachelors in Computer Engineering at KEC. I love to collab with people with interesting ideas. If you are contact me ",
   aboutImage:
-    "https://scontent.fktm1-2.fna.fbcdn.net/v/t1.0-9/129285004_3434333129998379_8036461023735552236_n.jpg?_nc_cat=103&ccb=2&_nc_sid=09cbfe&_nc_ohc=AyCvpzh8NVoAX-qCVDs&_nc_oc=AQmFrVdw2qVo5LPcd2VZT8gOFQnO4h7eYOJJoRgAre2HbDxfieRD46r8PkfqODmn5mc&_nc_ht=scontent.fktm1-2.fna&oh=f992a37c614d1843f3ae9c8d75f80a8b&oe=5FEBF2B3",
+    "https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/129285004_3434333129998379_8036461023735552236_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=ewTFRyVL7qQAX9p4jDM&_nc_ht=scontent.fktm8-1.fna&oh=8ba8407fa0f9348c7ff8914a2575f0a4&oe=607A54B3",
   ShowAboutImage: true,
 
   whatido: [
@@ -117,7 +117,7 @@ export default {
       name: "Anish Sah",
       whoami: "Leader",
       image:
-        "https://scontent.fktm1-1.fna.fbcdn.net/v/t1.0-0/p526x296/106106227_2995199320578431_249427227265936226_o.jpg?_nc_cat=105&ccb=2&_nc_sid=ad2b24&_nc_ohc=G05nonVP6F4AX-n-2y9&_nc_ht=scontent.fktm1-1.fna&tp=6&oh=a081d60b7133c9ad0e3d892281f6f65c&oe=5FF1691E",
+      "https://media-exp1.licdn.com/dms/image/C5103AQGnv0Uo7TQdsA/profile-displayphoto-shrink_800_800/0/1531909396753?e=1621468800&v=beta&t=NM4aZ_0uJwud47GRcYs0ZFVbx124j3Il5uZ6gpUntKk",      
       describe:
         "A good Person with lot of Knowledge. I acknowledge him many more so I transferred to his room forcefully",
     },
